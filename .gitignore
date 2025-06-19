@@ -1,0 +1,24 @@
+# Ignore audio data and large files
+/taa-2025-freesound-audio-tagging/
+/pdf/
+*.wav
+*.csv
+*.ipynb_checkpoints/
+
+# Ignore model checkpoints and saved models
+saved/
+*.h5
+*.ckpt
+*.pb
+
+# Ignore notebook and Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+*.log
+
+# Ignore VSCode settings
+.vscode/
